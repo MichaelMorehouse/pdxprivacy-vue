@@ -11,8 +11,8 @@
       </button>
       <div class="dropdown-content">
         <router-link to="/">Home</router-link>
-        <router-link to="/about">About</router-link>
         <router-link to="/efforts">Efforts</router-link>
+        <router-link to="/resources">Resources</router-link>
         <router-link to="/network">Network</router-link>
       </div>
     </div>
