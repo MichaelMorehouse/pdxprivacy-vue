@@ -1,6 +1,7 @@
 <template>
   <div id="network-content" class="page-content">
-    <div class="subsection-header">Electronic Frontier Alliance</div>
+    <div class="section-header">Allies</div>
+    <h3>Electronic Frontier Alliance</h3>
     <p>
       PDX Privacy endorses the principles of the
       <a

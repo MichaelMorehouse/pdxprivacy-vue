@@ -1,9 +1,9 @@
 <template>
   <div id="efforts-content" class="page-content">
     <div class="section-header">Efforts</div>
-    <div class="effort-header">CCOPS</div>
+    <h3>CCOPS</h3>
     <p>
-      <span class="leadin-text">W</span>e’re working to implement
+      We’re working to implement
       the Community Control Over Police Surveillance (CCOPS)
       principles in the Portland Metro Area. The purpose of the
       CCOPS is to ensure transparency and public input in the
@@ -25,9 +25,9 @@
         target="_blank"
       >here</a>.
     </p>
-    <div class="effort-header">Corporate Surveillance</div>
+    <h3>Corporate Surveillance</h3>
     <p>
-      <span class="leadin-text">W</span>e’re working to rein in
+      We’re working to rein in
       the collection of user data and its use for purposes other
       than which it was shared. Most Internet companies today
       employ an advertising revenue model, where if you’re getting
@@ -68,9 +68,9 @@
       nefarious, without proper planning and oversight, they could
       create opportunities for misuse of personal data.
     </p>
-    <div class="effort-header">Biometric Privacy</div>
+    <h3>Biometric Privacy</h3>
     <p>
-      <span class="leadin-text">W</span>e’re working to get
+      We’re working to get
       protections in place for biometric data. With the increased
       use of facial recognition and other systems that record body
       measurements, there must be safeguards to ensure that
