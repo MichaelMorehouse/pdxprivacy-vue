@@ -4,13 +4,17 @@ import App from './App.vue'
 
 import About from './components/pages/About'
 import Efforts from './components/pages/Efforts'
+import Resources from './components/pages/Resources'
+import Network from './components/pages/Network'
 
 Vue.use(VueRouter)
 Vue.config.productionTip = false
 
 const routes = [
   { path: '/', component: About },
-  { path: '/efforts', component: Efforts }
+  { path: '/efforts', component: Efforts },
+  { path: '/resources', component: Resources },
+  { path: '/network', component: Network },
 ]
 
 const router = new VueRouter({
