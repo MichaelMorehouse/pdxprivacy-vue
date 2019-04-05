@@ -70,4 +70,19 @@ export default {};
 </script>
 
 <style>
+.resource-item {
+  margin-left: 5%;
+  padding-bottom: 5px;
+}
+
+.resource-item a {
+  display: block;
+  padding: 5px 0;
+  color: rgb(20, 30, 123);
+}
+
+.resource-item > div {
+  display: block;
+  margin: 0 15% 0 10%;
+}
 </style>
