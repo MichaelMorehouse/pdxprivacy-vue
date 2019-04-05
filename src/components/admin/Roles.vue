@@ -1,13 +1,10 @@
 <template>
-	
+  <p>Hello from the admin dashboard</p>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>
