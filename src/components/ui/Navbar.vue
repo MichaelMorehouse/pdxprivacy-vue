@@ -13,7 +13,7 @@
         <router-link to="/">Home</router-link>
         <router-link to="/efforts">Efforts</router-link>
         <router-link to="/resources">Resources</router-link>
-        <router-link to="/network">Network</router-link>
+        <router-link to="/allies">Allies</router-link>
       </div>
     </div>
     <div class="nav-item nav-item-right">

@@ -1,5 +1,5 @@
 <template>
-  <div id="network-content" class="page-content">
+  <div id="allies-content" class="page-content">
     <div class="section-header">Allies</div>
     <h3>Electronic Frontier Alliance</h3>
     <p>
