@@ -2,7 +2,7 @@
   <div id="app">
     <!-- <header></header> -->
     <Navbar></Navbar>
-    <router-view></router-view>
+    <PageContent></PageContent>
     <Footer></Footer>
   </div>
 </template>
@@ -10,11 +10,13 @@
 <script>
 import Navbar from "./components/ui/Navbar";
 import Footer from "./components/ui/Footer";
+import PageContent from "./components/ui/PageContent";
 
 export default {
   name: "app",
   components: {
     Navbar,
+    PageContent,
     Footer
   }
 };
@@ -30,38 +32,31 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(245, 245, 245);
 }
 
-header {
+/* header {
   height: 40vh;
   background: url("assets/pdx_skyline.jpg") no-repeat center;
   background-size: cover;
+} */
+
+/* Global css variables */
+:root {
+  --primary-txt-color: rgb(50, 60, 114);
+  --primary-bg-color: white;
+  --secondary-txt-color: white;
+  --secondary-bg-color: rgb(50, 60, 114);
 }
 
 .primary-color {
-  background-color: white; /* orange: rgb(255, 170, 11); */
-  color: rgb(50, 60, 114);
+  background-color: var(--primary-bg-color);
+  color: var(--primary-txt-color);
 }
 
 .secondary-color {
-  background-color: rgb(50, 60, 114); /* orange: rgb(255, 170, 11); */
-  color: white;
-}
-/* Basic content styles */
-
-.page-content {
-  width: 60%;
-  margin: 20px auto;
-}
-
-@media only screen and (max-width: 600px) {
-  .page-content {
-    width: 80%;
-  }
-}
-
-.page-content a {
-  color: rgb(19, 28, 123, 0.8);
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-txt-color);
 }
 
 .text-uppercase {
@@ -74,15 +69,5 @@ header {
 
 .text-bold {
   font-weight: bold;
-}
-.section-header {
-  display: block;
-  width: fit-content;
-  font-weight: bold;
-  font-size: 1.5em;
-  padding: 20px 0 2px 0;
-  margin: 0 0 18px 0;
-  color: rgb(20, 30, 123);
-  border-bottom: 1px solid;
 }
 </style>

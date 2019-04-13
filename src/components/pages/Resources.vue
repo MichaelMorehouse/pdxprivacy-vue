@@ -78,7 +78,7 @@ export default {};
 .resource-item a {
   display: block;
   padding: 5px 0;
-  color: rgb(20, 30, 123);
+  color: rgb(50, 60, 114);
 }
 
 .resource-item > div {
