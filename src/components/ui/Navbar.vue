@@ -1,7 +1,7 @@
 <template>
-  <div id="navbar" class="secondary-color">
+  <div id="navbar" class="primary-color">
     <div class="dropdown">
-      <button class="nav-item">
+      <button class="nav-item primary-color">
         <div class="menu-icon">
           <div></div>
           <div></div>
@@ -31,14 +31,16 @@ export default {};
 
 #navbar {
   display: flex;
-  position: sticky;
   top: 0;
+  border-bottom: 2px solid;
+  -webkit-box-shadow: 0px 2px 2px 0px rgb(50, 60, 114, 0.75);
+  -moz-box-shadow: 0px 2px 2px 0px rgb(50, 60, 114, 0.75);
+  box-shadow: 0px 2px 2px 0px rgb(50, 60, 114, 0.75);
 }
 
 .nav-item {
   display: inline-block;
   background-color: transparent;
-  color: white;
   padding: 0.8em;
   font-size: 1.3em;
   font-weight: 550;
@@ -66,7 +68,6 @@ export default {};
 
 .nav-item > a {
   text-decoration: none;
-  color: white;
   display: block;
 }
 
@@ -100,7 +101,7 @@ export default {};
 }
 
 .dropdown-content a {
-  color: rgb(20, 30, 123);
+  color: rgb(50, 60, 114);
   padding: 0.8em 1em;
   text-decoration: none;
   display: block;
@@ -123,7 +124,7 @@ export default {};
 .menu-icon > div {
   width: 30px;
   height: 4px;
-  background-color: white;
+  background-color: rgb(50, 60, 114);
   margin: 4px 0;
 }
 </style>

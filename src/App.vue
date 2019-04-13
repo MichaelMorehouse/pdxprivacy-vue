@@ -38,11 +38,15 @@ header {
   background-size: cover;
 }
 
-.secondary-color {
-  background-color: rgb(30, 50, 140); /* orange: rgb(255, 170, 11); */
-  color: white;
+.primary-color {
+  background-color: white; /* orange: rgb(255, 170, 11); */
+  color: rgb(50, 60, 114);
 }
 
+.secondary-color {
+  background-color: rgb(50, 60, 114); /* orange: rgb(255, 170, 11); */
+  color: white;
+}
 /* Basic content styles */
 
 .page-content {

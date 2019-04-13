@@ -1,5 +1,5 @@
 <template>
-  <footer class="secondary-color">
+  <footer>
     <div class="footer-flex">
       <div id="contact">
         <div id="contact-icons">
@@ -40,6 +40,8 @@ export default {
 <style>
 footer {
   position: relative;
+  background-color: rgb(50, 60, 114);
+  color: white;
 }
 
 .footer-flex {
@@ -61,7 +63,7 @@ footer {
   margin: 10px;
 }
 
-a {
+footer a {
   color: white;
 }
 
