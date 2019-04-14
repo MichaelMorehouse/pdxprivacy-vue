@@ -1,6 +1,6 @@
 <template>
   <div id="home-content" class="page-content">
-    <h3>Who we are</h3>
+    <div class="section-header">Who we are</div>
     <p>We are a group of people who care about privacy and transparency, and we’re working to protect our data and control its use.</p>
     <p>We believe that citizens have a right to know:</p>
     <ul>
@@ -34,7 +34,6 @@
     <p>We believe that people have a right to know what data about them is collected and how it’s used. Individuals should have input into the process and maintain control over their data, regardless of whether the information is being gathered by private companies or government agencies. Collected data should only be used for its original purpose unless further consent is granted by the individual.</p>
     <h3>Our mission</h3>
     <p>To bring about transparency and control in the acquisition and use of surveillance systems in the Portland Metro area, whether personal data is captured by the government or by commercial entities. Transparency is essential to ensure privacy protections, community control, fairness, and respect for civil rights.</p>
-    <p>Check out what initiatives we've been pursuing on our efforts page. Contact us using one of the methods below for more information or to get involved!</p>
   </div>
 </template>
 
