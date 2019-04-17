@@ -42,8 +42,8 @@ export default {};
 }
 
 .nav-item {
-  padding: 0 20px;
   margin: auto 0;
+  padding: 0 20px;
   font-weight: bold;
 }
 
@@ -94,7 +94,7 @@ export default {};
 }
 
 .dropdown:hover .dropdown-icon {
-  background: rgba(0, 0, 0, 0.1);
+  background: var(--backdrop-color);
 }
 
 .dropdown .dropdown-icon {

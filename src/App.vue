@@ -2,6 +2,7 @@
   <div id="app">
     <Navbar></Navbar>
     <PageContent></PageContent>
+    <div id="spacer"></div>
     <Footer></Footer>
   </div>
 </template>
@@ -27,24 +28,23 @@ body {
   margin: 0px;
   height: 100%;
   width: 100%;
+  position: relative;
   scroll-behavior: smooth;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-html {
-  background: white;
-}
-
-body {
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-color: var(--backdrop-color);
 }
-/* header {
-  height: 40vh;
-  background: url("assets/pdx_skyline.jpg") no-repeat center;
-  background-size: cover;
-} */
+
+#spacer {
+  flex: 1;
+}
 
 /* Global css variables */
 :root {
@@ -52,7 +52,7 @@ body {
   --primary-bg-color: white;
   --secondary-txt-color: white;
   --secondary-bg-color: rgb(50, 60, 114);
-  --backdrop-color: rgb(0, 0, 0, 0.1);
+  --backdrop-color: rgb(0, 0, 0, 0.05);
 }
 
 .primary-color {

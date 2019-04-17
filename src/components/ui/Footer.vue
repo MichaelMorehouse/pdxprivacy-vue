@@ -59,9 +59,9 @@ export default {
 }
 
 .copyright {
-  position: absolute;
+  position: relative;
   bottom: 0;
-  right: 0;
+  float: right;
   font-size: 0.7em;
   margin: 10px;
 }
