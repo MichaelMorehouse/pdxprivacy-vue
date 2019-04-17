@@ -11,6 +11,7 @@ import About from './components/pages/About'
 import Efforts from './components/pages/Efforts'
 import Resources from './components/pages/Resources'
 import Allies from './components/pages/Allies'
+import Blog from './components/pages/blog/Blog'
 
 Vue.use(VueRouter)
 
@@ -24,6 +25,8 @@ const routes = [
   { path: '/efforts', component: Efforts },
   { path: '/resources', component: Resources },
   { path: '/allies', component: Allies },
+  { path: '/blog', component: Blog },
+
 ]
 
 const router = new VueRouter({
