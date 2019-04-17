@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- <header></header> -->
     <Navbar></Navbar>
     <PageContent></PageContent>
     <Footer></Footer>
@@ -32,9 +31,15 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(245, 245, 245);
 }
 
+html {
+  background: white;
+}
+
+body {
+  background-color: var(--backdrop-color);
+}
 /* header {
   height: 40vh;
   background: url("assets/pdx_skyline.jpg") no-repeat center;
@@ -47,6 +52,7 @@ body {
   --primary-bg-color: white;
   --secondary-txt-color: white;
   --secondary-bg-color: rgb(50, 60, 114);
+  --backdrop-color: rgb(0, 0, 0, 0.1);
 }
 
 .primary-color {

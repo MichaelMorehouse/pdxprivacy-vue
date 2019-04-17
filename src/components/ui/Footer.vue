@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <div id="footer">
     <div class="footer-flex">
       <div id="contact">
         <div id="contact-icons">
@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="copyright">&copy; PDXPrivacy {{ year }}</div>
-  </footer>
+  </div>
 </template>
 
 <script>
@@ -38,9 +38,12 @@ export default {
 </script>
 
 <style>
-footer {
-  position: relative;
-  background-color: rgb(50, 60, 114);
+#footer {
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-txt-color);
+}
+
+#footer a {
   color: white;
 }
 
@@ -61,10 +64,6 @@ footer {
   right: 0;
   font-size: 0.7em;
   margin: 10px;
-}
-
-footer a {
-  color: white;
 }
 
 #contact-icons {
