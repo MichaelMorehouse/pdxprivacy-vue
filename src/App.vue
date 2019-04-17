@@ -2,7 +2,7 @@
   <div id="app">
     <Navbar></Navbar>
     <PageContent></PageContent>
-    <div id="spacer"></div>
+    <div id="spacer" class="page-content"></div>
     <Footer></Footer>
   </div>
 </template>

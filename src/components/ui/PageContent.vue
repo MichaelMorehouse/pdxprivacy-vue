@@ -11,10 +11,11 @@ export default {};
 <style>
 /* Content styles */
 .page-content {
+  display: relative;
   width: 60%;
-  margin: 10px auto;
+  height: 100%;
+  margin: 0 auto;
   padding: 10px 10%;
-  border-radius: 4px;
   background-color: white;
 }
 

@@ -1,8 +1,17 @@
 <template>
   <div id="resource-content" class="page-content">
-    <div v-for="post in posts" :key="post.title" class="post">
-      <div class="post-title">{{ post.title }}</div>
-      <div class="post-content">{{ post.content }}</div>
+    <div id="blog-flex">
+      <div id="blog-abstracts">
+        <div v-for="post in posts" :key="post.title" class="post">
+          <div class="post-title">{{ post.title }}</div>
+          <div class="post-content">{{ post.content }}</div>Read more
+        </div>
+      </div>
+      <div id="blog-sidebar">
+        <div v-for="post in posts" :key="post.title" class="post">
+          <div class="post-title">{{ post.title }}</div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -27,6 +36,14 @@ export default {
 </script>
 
 <style>
+#blog-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+#blog-abstracts {
+}
+
 .post {
   padding: 0 5px;
 }

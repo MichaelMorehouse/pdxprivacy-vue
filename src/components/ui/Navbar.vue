@@ -42,13 +42,18 @@ export default {};
 }
 
 .nav-item {
-  margin: auto 0;
+  display: flex;
+  align-items: center;
   padding: 0 20px;
   font-weight: bold;
 }
 
 .nav-link {
   cursor: pointer;
+}
+
+.nav-link:hover {
+  background: var(--backdrop-color);
 }
 
 .nav-item-right {
